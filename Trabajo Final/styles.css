@@ -1,0 +1,269 @@
+body{
+    margin:2rem;
+    background-image:url(imagenes/fondo3.webp);
+    background-size: cover;
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+   
+
+}
+
+
+a{
+    text-decoration: none;
+    color: white;
+
+}
+
+
+a:hover{
+    color: white;
+}
+
+
+td, th, tr{
+    text-align: center;
+    vertical-align: middle;
+
+}
+
+
+tr{
+    border-bottom-color: white;
+
+}
+
+
+tr:hover{
+    background-color: rgba(255, 255, 255, 0.308);
+
+}
+
+
+table tr:first-child:hover{
+    background-color: transparent;
+
+}
+
+
+.botones{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.botones_perfil{
+    display: flex;
+
+}
+
+.boton_agregar{
+    margin-right: 1rem;
+    
+}
+
+.administrar{
+    margin-right: 1rem;
+    
+}
+
+
+.boton{
+    background-color: transparent;
+    margin-bottom: 1rem;
+    border: 1px solid white;
+
+}
+
+
+.dropdown-menu{
+    border: 1px solid white;
+    --bs-dropdown-link-active-bg:none;
+    --bs-dropdown-bg:transparent;
+      width: fit-content;
+   
+
+}
+
+.dropdown-menu.show{
+     background-color: #ffffffba;
+}
+
+
+
+.dropdown-item{
+    color:black;
+    background-color: transparent;
+
+}
+
+
+.dropdown-item:hover{
+    background-color:#565e64;
+    color:white;
+
+}
+
+
+form{
+    margin-top: 3rem;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: transparent;
+    line-height: 20px;
+    height: fit-content;
+    padding: 1rem;
+    font-size: large;
+    
+}
+
+
+
+input, label{
+    background-color: transparent;
+    border: none;
+    color: white;
+    margin-top:1rem;
+    margin-bottom: auto;
+ 
+}
+
+
+input{
+    border: 2px solid rgba(255, 255, 255, 0.521);
+    border-radius: 5px;
+
+}
+
+
+.ingresar{
+    border: 2px solid rgba(255, 255, 255, 0.521);
+    border-radius: 5px;
+
+}
+
+
+.card{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: transparent;
+    border: 3px solid white; 
+    border-radius: 15px;
+    color: white;
+    margin: 0 1rem 1rem 1rem ;
+    
+}
+
+
+.list-group-item{
+    background-color: transparent;
+    color: white;
+}
+
+
+.card>.list-group {
+    border-top: none;
+    border-bottom: none;
+   
+}
+
+
+.imagen-card{
+    margin: 1rem auto 1rem auto;
+    border-radius: 15px;
+
+}
+
+
+.tienda{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 3rem 0;
+
+}
+
+
+h1, h2, h3{
+    color: white;
+}
+
+
+.table{
+    border: 1px solid white;
+    color: white;
+    --bs-table-striped-color:white;
+    margin-left: 1rem;
+
+
+}
+
+
+.imagen-todos{
+    border-radius: 15px;
+
+}
+
+
+.eliminar-todos{
+    color:red;
+
+}
+
+
+.eliminar-todos:hover{
+    color:red;
+    text-decoration: underline;
+    font-weight: bold;
+
+}
+
+.editar-todos{
+    color:green;
+
+}
+
+
+.editar-todos:hover{
+    color:green;
+    text-decoration: underline;
+    font-weight: bold;
+
+}
+
+p{
+    color:white;
+    
+}
+
+
+
+.btn-primary{
+    border:1px solid white;
+    --bs-btn-active-bg: #565e64;
+    --bs-btn-active-border-color: #565e64;
+    --bs-btn-hover-bg: #565e64;
+    --bs-btn-hover-border-color: #565e64;
+}
+
+
+}
+
+
+
+.form-control{
+    background-color: transparent;
+
+}
+
+
+.h3{
+    font-size: 10px;
+
+}
+
+
+
+@media (max-width: 1023px){
+    
+}
