@@ -1,6 +1,10 @@
+Esto no es imprtante, solo son los datos para ingresar al host.
+
+
+
 
 Control panel username:	n260m_32928476
-Control panel password:	********** gshk74xt
+Control panel password:	********** 
 Control panel URL:	cpanel.260mb.net
 MySQL username	n260m_32928476
 MySQL password:	**********
@@ -21,54 +25,4 @@ n260m_32928476
 
 sql110.260mb.net
 
-
-else{
-
-    $consulta = "INSERT INTO usuarios (id,nombre,usuario,contrasenia) VALUES ('', '$nombre', '$usuario', '$contrasenia')";
-
-    $correcto=mysqli_query($conexion,$consulta);
-
-    echo "El usuario fué creado correctamente.";
-}
-
-
-vsc
-Balsamiq
-
-
- if(isset($_POST["submit"])){
-        $usuario = $_POST['usuario'];
-        $contrasenia = $_POST['contrasenia'];
-        $nombre= $_POST['nombre'];
-
-          $conexion=mysqli_connect("sql110.260mb.net","n260m_32928476","gshk74xt");
-          mysqli_select_db($conexion,"n260m_32928476_tienda");
-
-       $usuario=$_POST['usuario'];
-
-        $consulta="SELECT * FROM usuarios WHERE usuario = '$usuario'";
-
-        $resultado= mysqli_query($conexion,$consulta);
-
-        $datos=mysqli_fetch_array($resultado);
-
-        $usuariodb=$datos['usuario'];
-        
-
-         if($usuario == ""){
-            echo "";
-
-        }
-        elseif($usuario == $usuariodb){
-            echo "El usuario ya está registrado! Elija otro nombre de usuario.";
-        }
-        else{
-             $consulta = "INSERT INTO usuarios (id,nombre,usuario,contrasenia) VALUES ('', '$nombre', '$usuario', '$contrasenia')";
-
-             mysqli_query($conexion,$consulta);
-
-            echo "El usuario fué creado correctamente.";
-        }
-
-
-    }
+gshk74xt
